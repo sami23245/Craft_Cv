@@ -1,0 +1,14 @@
+Django>=4.2
+djangorestframework
+djangorestframework-simplejwt
+mysqlclient
+django-cors-headers
+django-allauth[socialaccount]      # Google OAuth
+python-dotenv
+Pillow
+reportlab                         # PDF generation
+openai>=1.0.0                     # AI vulnerability scan
+PyPDF2
+python-docx
+celery[redis]                     # Background AI tasks
+django-storages[boto3]            # S3 for PDF storage
