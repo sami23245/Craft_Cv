@@ -150,8 +150,12 @@ OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "http://localhost:5174",
+    "http://localhost:5175",
     "https://craftcv.app",
 ]
+
+CORS_ALLOW_CREDENTIALS = True
 
 # Celery for background AI processing
 CELERY_BROKER_URL = os.getenv('REDIS_URL', 'redis://localhost:6379/0')
